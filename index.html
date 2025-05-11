@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medari Rajesh Kumar | Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"/>
+  <style>
+    :root {
+      --bg-color: #081b29;
+      --text-color: #ededed;
+      --main-color: #00abf0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 10%;
+      background: rgba(8, 27, 41, 0.9);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+      backdrop-filter: blur(5px);
+    }
+
+    .logo {
+      font-size: 25px;
+      color: var(--text-color);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .navbar a {
+      font-size: 18px;
+      color: var(--text-color);
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 35px;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      color: var(--main-color);
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 100px 10% 50px;
+    }
+
+    .home {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .home-content {
+      flex: 1 1 45%;
+    }
+
+    .home-content h1 {
+      font-size: 48px;
+      font-weight: 700;
+    }
+
+    .home-content h3 {
+      font-size: 24px;
+      font-weight: 500;
+      margin: 10px 0;
+      color: var(--main-color);
+    }
+
+    .home-content p {
+      font-size: 16px;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+
+    .home-img {
+      flex: 1 1 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .home-img img {
+      width: 300px;
+      border-radius: 50%;
+      border: 4px solid var(--main-color);
+      box-shadow: 0 0 20px rgba(0, 171, 240, 0.4);
+    }
+
+    h2 {
+      font-size: 36px;
+      color: var(--main-color);
+      margin-bottom: 20px;
+    }
+
+    .social-media {
+    margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.social-media a {
+  font-size: 2.2rem;
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: var(--main-color);
+}
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      max-width: 800px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 15px 5%;
+      }
+
+      .navbar a {
+        margin-left: 20px;
+        font-size: 16px;
+      }
+
+      .home {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .home-content, .home-img {
+        flex: 1 1 100%;
+      }
+
+      .home-img img {
+        width: 200px;
+        margin-top: 20px;
+      }
+
+      .home-content h1 {
+        font-size: 36px;
+      }
+
+      .home-content h3 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="#" class="logo">Medari Rajesh Kumar</a>
+  <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="home" id="home">
+  <div class="home-content">
+    <h1>Hi, I'm Medari Rajesh Kumar</h1>
+    <h3>Frontend Developer</h3>
+    <p>Welcome to my creative portfolio!.I create beautiful and functional web experiences with HTML, CSS, and JavaScript. I love bringing ideas to life on the web and helping brands grow through digital design.</p>
+        <p>- Developed and styled responsive webpages</p>
+        <p>- Collaborated on project tasks and debugging</p>
+       <p> - Gained hands-on experience with real-time project execution</p>
+  </div>
+  <div class="home-img">
+    <img src="Untitled (2).png" alt="Medari Rajesh Kumar">
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Motivated and enthusiastic B.Tech Computer Science student with a strong foundation in web
+    development, Python programming, and AI tools. Passionate about building intuitive, user-friendly
+    applications and continuously learning emerging technologies. Looking for opportunities to apply
+    and enhance my skills in real-world projects and collaborative environments.
+    </p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <p>
+    <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Frontend Development</li>
+        <li>Basics in JavaScript</li>
+        <li>Python programming</li>
+        <li>Basics in C-Language</li>
+        <li>AI-Tools</li>
+    </ul>
+  </p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li><h4 style="color:skyblue">Editkaro Portfolio</h4></li>
+    <p>Editkaro.in is a leading social media marketing and video editing agency, specializing in a wide range of video content production. From short-form videos and long-form videos to gaming videos, football edits, eCommerce ads, documentaries, color grading, anime videos, and advertisements—our expert team brings your vision to life with creative precision. Our mission is to provide top-tier video editing services that help businesses and individuals effectively communicate their message across digital platforms.
+        <a href="https://rajesh5644.github.io/miniproject/">Click-Here</a>
+    </p>
+ <li ><h4 style="color:skyblue;">WaterPro - Online Water Delivery Platform</h4></li>
+    <p>A web-based application that allows users to place water delivery orders, manage order history, and
+        includes an admin panel for backend operations. Features: User authentication, order tracking,
+        responsive design, modern UI/UX.<a href="https://rajesh5644.github.io/waterpro/">Click-Here</a></p>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me!</h2>
+  <p>E-Mail : medarirajesh99@gmail.com</p>
+  <div class="social-media">
+    <a href="https://www.instagram.com/rajesh_raju_0/profilecard/?igsh=c2oxZnpvNHl4NnJ5"><i class="bx bxl-instagram"></i></a>
+    <a href="https://github.com/Rajesh5644"><i class="bx bxl-github"></i></a>
+    <a href="https://www.linkedin.com/in/medari-rajesh-kumar-b62962338"><i class="bx bxl-linkedin"></i></a>
+    <a href="https://x.com/Rajesh_Raju_0?t=Y9EdoJdEIQz1HZxL_3S9Tw&s=09"><i class="bx bxl-twitter"></i></a>
+  </div>
+</section>
+
+<script>
+  const sections = document.querySelectorAll('section');
+  const navLinks = document.querySelectorAll('header nav a');
+
+  window.onscroll = () => {
+    let top = window.scrollY;
+    sections.forEach(sec => {
+      let offset = sec.offsetTop - 100;
+      let height = sec.offsetHeight;
+      let id = sec.getAttribute('id');
+      if (top >= offset && top < offset + height) {
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          document.querySelector(`header nav a[href="#${id}"]`).classList.add('active');
+        });
+      }
+    });
+  };
+</script>
+
+</body>
+</html>
